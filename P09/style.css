@@ -1,0 +1,40 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: lightyellow;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: rgb(213, 149, 149);
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+}
