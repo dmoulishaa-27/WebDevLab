@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    text-align: center;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.card {
+    position: relative;
+    width: 250px;
+    margin: 30px auto;
+}
+
+.card img {
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+}
+
+body {
+    padding-bottom: 500px;
+}
