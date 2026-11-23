@@ -1,0 +1,59 @@
+
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 12px;
+    color: #aaaaaa;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+header {
+    background-color: navy;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+nav a {
+    padding: 2px;
+    margin-right: 4px;
+    color: navy;
+    text-decoration: none;
+}
+
+.banner {
+    text-align: center;
+    padding: 10px;
+}
+
+.banner img {
+    width: 1000px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: lightblue;
+    padding: 20px;
+    width: 33.33%;
+}
+
+footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
